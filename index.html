@@ -26,6 +26,7 @@
                         <li><a href="http://nanoshots.com.br/"  target="_blank" class="fa-link">Blogger</a></li>
                         <li><a href="https://br.linkedin.com/in/msfidelis" target="_blank" class="fa-linkedin">LinkedIn</a></li>
                         <li><a href="https://github.com/msfidelis" target="_blank" class="fa-github">Github</a></li>
+                        <li><a href="https://www.vivaolinux.com.br/~msfidelis" target="_blank" class="fa-linux">Viva o Linux</a></li>
                     </ul>
                     <ul class="actions">
                         <li><a href="#" class="button">Portfólio</a></li>
@@ -34,10 +35,25 @@
                 </footer>
 
                 <pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;text-transform: none;padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> 
-    class contactController {  
+    class contactController extends matheus {  
         private $protonmail1 = "matheus.fidelis@protonmail.com";  
         private $protonmail2 = "d0ctor@protonmail.com";
         private $myBlog = "nanoshots.com.br";
+
+        private $techs = array(
+                            "#PHP5",
+                            "#Jquery",
+                            "#CakePHP",
+                            "#CodeIgniter",
+                            "#TwitterBootstrap",
+                            "#MaterialDesign",
+                            "#HTML5/CSS3/Javascript",
+                            "#Python2.7",
+                            "#Django",
+                            "#Linux",
+                            "#Security"
+                        );        
+
         private $myTools = array(
                             <a href="https://github.com/msfidelis/Kill-Router-" target="_blank">"[+] Kill Router" => "Brute Force on Routers and Panels"</a>,
                             <a href="https://github.com/msfidelis/Sherlock" target="_blank">"[+] Sherlock" => "Pesquisa de Disclosures em Frameworks Web"</a>,
@@ -50,10 +66,15 @@
         private $projects = array(
                             "#CienciaHacker",
                             "#Nanoshots",
-                            "#GDGCabreuva"
+                            "#GDGCabreuva",
+                            "#SlackwareLinux",
+                            "#DebianLinux",
+                            "#CentOS",
+                            "#PHP",
+                            "#TwitterBootstrap"
                         );
    
-        public function index_action() {  
+        public function showData() {  
             <a href="mailto:matheus.fidelis@protonmail.com">var_dump($this-&gt;protonmail1);</a>
             <a href="mailto:d0ctor@protonmail.com">var_dump($this-&gt;protonmail2);</a>  
             <a href="http://nanoshots.com.br/" target="_blank">var_dump($this-&gt;myBlog);</a> 
