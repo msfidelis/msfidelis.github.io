@@ -36,11 +36,13 @@
                 <pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;text-transform: none;padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> 
     class contactController {  
         private $protonmail1 = "matheus.fidelis@protonmail.com";  
-        private $protonmail2 = "d0ctor@protonmail.com";  
+        private $protonmail2 = "d0ctor@protonmail.com";
+        private $publicKey = "";
    
         public function index_action() {  
             <a href="mailto:matheus.fidelis@protonmail.com">var_dump($this-&gt;protonmail1);</a>
             <a href="mailto:d0ctor@protonmail.com">var_dump($this-&gt;protonmail2);</a>  
+            var_dump($this->publicKey);
         }  
     }  
 </code></pre>
