@@ -48,7 +48,6 @@
                 <pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;text-transform: none;padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;">
     class contact extends matheus {
         private $protonmail1 = "matheus.fidelis@protonmail.com";
-        private $protonmail2 = "d0ctor@protonmail.com";
         private $myBlog = "nanoshots.com.br";
 
         private $techs = array(
@@ -73,12 +72,14 @@
                             <a href="https://github.com/msfidelis/VHostCreator" target="_blank">"[+] VHostCreator" => "Automatização de configuração de VirtualHosts"</a>,
                             <a href="https://github.com/msfidelis/HDWipeTool" target="_blank">"[+] HDWipeTool" => "Wipe total em HD's e Dispositivos"</a>,
                             <a href="https://github.com/msfidelis/PythonBackupSystem" target="_blank">"[+] PythonBackupSystem" => "Backup Full e Diferencial em Python"</a>
+                            <a href="https://github.com/msfidelis/Telegram-ChatoBot" target="_blank">"[+] ChatoBot" => "Exemplo de Telegram Bot com Python e SQLite"</a>
+                            <a href="https://github.com/msfidelis/TorrentRSSDownloader" target="_blank">"[+] TorrentRSSDownloader" => "Exemplo de Daemon para fazer Download de Torrents"</a>
                         );
 
         private $projects = array(
                             <a href="https://cienciahacker.ch/" target="_blank">"#CienciaHacker"</a>,
-                            "#Nanoshots",
-                            "#GDGCabreuva",
+                            <a href="http://www.nanoshots.com.br/" target="_blank">"#Nanoshots"</a>,
+                            <a href="http://www.meetup.com/pt-BR/GDG-Cabreuva/" target="_blank">"#GDGCabreuva"</a>,
                             <a href="http://www.slackware.com/" target="_blank">"#SlackwareLinux"</a>,
                             <a href="https://www.debian.org/index.pt.html" target="_blank">"#DebianLinux"</a>,
                             <a href="https://www.centos.org/" target="_blank">"#CentOS"</a>,
@@ -86,7 +87,6 @@
 
         public function showData() {
             <a href="mailto:matheus.fidelis@protonmail.com">var_dump($this-&gt;protonmail1);</a>
-            <a href="mailto:d0ctor@protonmail.com">var_dump($this-&gt;protonmail2);</a>
             <a href="http://nanoshots.com.br/" target="_blank">var_dump($this-&gt;myBlog);</a>
             var_dump($this->publicKey);
         }
