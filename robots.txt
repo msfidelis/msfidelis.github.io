@@ -1,0 +1,4 @@
+// criar um robot.txt que ignora tudo dentro da pasta /private
+User-agent: *
+Disallow: /private/
+Disallow: /private/*
